@@ -61,6 +61,7 @@ TARGET_USES_ION := true
 ifeq ($(TARGET_HAS_FOD),true)
 TARGET_USES_FOD_ZPOS := true
 endif
+USE_OPENGL_RENDERER := true
 
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(COMMON_PATH)/config.fs
